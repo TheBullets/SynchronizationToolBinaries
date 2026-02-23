@@ -9,7 +9,9 @@ This repository contains two simple command-line utilities for synchronizing fil
 
 ## Synchronizer
 
-Synchronizer monitors configured directories and copies new or modified files to an output folder. If an RSA private key is provided, files are encrypted during the sync process.
+Synchronizer monitors configured directories and copies new or modified files to an output folder. If an RSA private key is provided, files are encrypted during the sync process. 
+
+It will add a tray icon. Left click it to pause/resume the process, and right click it to exit the process.
 
 ### Usage
 ```
